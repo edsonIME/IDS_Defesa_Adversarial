@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Experiment outputs
+results_*/
+*.log
+*.npy
+*.memmap
+checkpoints/
+
+# Data (never commit datasets)
+*.csv
+data/
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
